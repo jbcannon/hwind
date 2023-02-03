@@ -4,8 +4,8 @@
 
 ```
 library(tidyverse)
-devtools::document()
-devtools::install()
+devtools::github_install('jbcannon/hwind')
+library(hwind)
 
 # Figure out the leaf area index of the pine stand
 LAI = pred_LAI_longleaf(Dq=30, TPH=150, Hdom=30, age=30)
