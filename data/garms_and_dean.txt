@@ -1,0 +1,20 @@
+
+Call:
+lm(formula = Mmax_kNm ~ BA_cm2, data = d)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-14.329  -2.269   1.492   3.246   8.403 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -4.658762   2.013190  -2.314   0.0285 *  
+BA_cm2       0.132563   0.005001  26.509   <2e-16 ***
+---
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 5.586 on 27 degrees of freedom
+Multiple R-squared:  0.963,	Adjusted R-squared:  0.9616 
+F-statistic: 702.7 on 1 and 27 DF,  p-value: < 2.2e-16
+
